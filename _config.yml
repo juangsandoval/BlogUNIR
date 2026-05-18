@@ -3,6 +3,6 @@ description: "Ejemplo sencillo de blog estático creado con Jekyll"
 author: "Juan Guillermo Sandoval Montero"
 lang: "es"
 
-baseurl: ""
+baseurl: "/BlogUNIR"
 
 permalink: /:year/:month/:day/:title/
