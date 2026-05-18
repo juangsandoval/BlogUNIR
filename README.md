@@ -1,6 +1,6 @@
-# Mi Blog Jekyll
+# Mi Blog usando Jekyll
 
-Ejemplo mínimo de blog estático con Jekyll, HTML y CSS.
+Blog estático con Jekyll, HTML y CSS. Creado para la asignatura Desarrollo de aplicaciones en Red.
 
 ## Estructura
 
@@ -12,29 +12,3 @@ Ejemplo mínimo de blog estático con Jekyll, HTML y CSS.
 - `assets/img/`: imágenes usadas en las entradas.
 - `index.html`: página principal.
 - `about.html`: página acerca del blog.
-
-## Cómo ejecutarlo localmente
-
-Instala Ruby y Bundler. Luego, dentro de la carpeta del proyecto, ejecuta:
-
-```bash
-bundle install
-bundle exec jekyll serve
-```
-
-Después abre en el navegador:
-
-```text
-http://localhost:4000
-```
-
-## Cómo publicarlo en GitHub Pages
-
-1. Sube esta carpeta a un repositorio de GitHub.
-2. Ve a Settings > Pages.
-3. Selecciona la rama principal.
-4. Si tu repositorio se llama, por ejemplo, `mi-blog-jekyll`, cambia en `_config.yml`:
-
-```yml
-baseurl: "/mi-blog-jekyll"
-```
