@@ -1,18 +1,22 @@
 ---
 layout: post
-title: "¿Qué es un sitio estático?"
+title: "Horizon Zero Dawn"
 date: 2026-05-16
-image: /assets/img/static-site.svg
+image: /assets/img/Games_Horizon.jpg
 image_alt: "Ilustración de un sitio web estático"
-categories: [web, jekyll]
 ---
 
-Un sitio estático está compuesto por archivos que el navegador puede mostrar
-directamente, como HTML, CSS, JavaScript e imágenes.
+Horizon Zero Dawn.
+Genero: Acción, Aventura, Sci- Fi
 
-A diferencia de un sitio dinámico, no necesita consultar una base de datos para
-generar cada página. Esto hace que sea rápido, sencillo de alojar y fácil de
-mantener.
+El juego se encuentra ambientado en un futuro donde la civilización se encuentra distribuida en tribus
+sin acceso a tecnología, dado que esta se observa como un enemigo común y salvaje. En el ambiente solo hay
+máquinas que interactuan con el ecosistema.
 
-Jekyll ayuda a crear sitios estáticos porque toma archivos de contenido y
-plantillas, y genera páginas HTML listas para publicarse.
+Durante el juego estaremos en la piel de Aloy, una marginada por la tribu que buscará su lugar en el mundo
+mediante un viaje exploratorio del pasado.
+
+La jugabilidad del juego es excelente así como la progresión y los objetivos que se van ejecutando. Los gráficos
+son muy buenos. La historia también está muy encaminada, pero el final no es acorde a la narrativa.
+
+calificación: 8/10.
