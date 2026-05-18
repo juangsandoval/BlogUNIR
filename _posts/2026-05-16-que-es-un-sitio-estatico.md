@@ -3,7 +3,9 @@ layout: post
 title: "Horizon Zero Dawn"
 date: 2026-05-16
 image: /assets/img/Games_Horizon.jpg
-image_alt: "Ilustración de un sitio web estático"
+image_alt: "Portada del videojuego Horizon Zero Dawn"
+image_credit: "Portada del videojuego Horizon Zero Dawn. Derechos: Sony Interactive Entertainment.  Uso educativo y de comentario."
+categories: [videojuegos, analisis]
 ---
 
 Horizon Zero Dawn.
