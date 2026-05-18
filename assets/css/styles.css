@@ -152,6 +152,17 @@ img {
   border-radius: 16px;
 }
 
+.post-figure {
+  margin: 24px 0;
+}
+
+.post-figure figcaption {
+  margin-top: 8px;
+  color: #697386;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
 .post-content {
   font-size: 1.08rem;
 }
