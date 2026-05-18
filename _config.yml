@@ -1,0 +1,12 @@
+title: "Mi Blog de HTML y CSS"
+description: "Ejemplo sencillo de blog estático creado con Jekyll"
+author: "Estudiante"
+lang: "es"
+
+# Para GitHub Pages:
+# Si el repositorio se llama mi-blog-jekyll, usa:
+# baseurl: "/mi-blog-jekyll"
+# Si el sitio es usuario.github.io, deja baseurl vacío:
+baseurl: ""
+
+permalink: /:year/:month/:day/:title/

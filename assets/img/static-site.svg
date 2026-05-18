@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#edf8f1"/>
+  <rect x="140" y="110" width="620" height="360" rx="24" fill="#ffffff" stroke="#2f8f5b" stroke-width="8"/>
+  <rect x="180" y="160" width="540" height="60" rx="10" fill="#2f8f5b"/>
+  <rect x="180" y="260" width="240" height="150" rx="14" fill="#d7f0e2"/>
+  <rect x="470" y="260" width="250" height="30" rx="8" fill="#9fd3b6"/>
+  <rect x="470" y="315" width="250" height="30" rx="8" fill="#9fd3b6"/>
+  <rect x="470" y="370" width="180" height="30" rx="8" fill="#9fd3b6"/>
+  <text x="255" y="202" font-family="Arial" font-size="34" fill="#ffffff">Sitio estático</text>
+</svg>

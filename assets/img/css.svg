@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#eaf2ff"/>
+  <circle cx="450" cy="300" r="190" fill="#ffffff" stroke="#1554b7" stroke-width="8"/>
+  <text x="325" y="250" font-family="Arial" font-size="70" font-weight="700" fill="#1554b7">CSS</text>
+  <text x="275" y="350" font-family="Arial" font-size="42" fill="#333">{ color: blue; }</text>
+</svg>

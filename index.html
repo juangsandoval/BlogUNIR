@@ -1,0 +1,33 @@
+---
+layout: default
+title: Inicio
+---
+
+<section class="hero">
+  <div>
+    <p class="eyebrow">Blog estático con Jekyll</p>
+    <h1>Mi Blog de HTML y CSS</h1>
+    <p>
+      Este es un ejemplo sencillo de blog creado con Jekyll. Contiene tres entradas,
+      imágenes locales, una plantilla HTML reutilizable y una hoja de estilos CSS.
+    </p>
+  </div>
+</section>
+
+<section class="posts-grid" aria-label="Entradas del blog">
+  {% for post in site.posts %}
+    <article class="post-card">
+      <a href="{{ post.url | relative_url }}">
+        <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt }}">
+      </a>
+      <div class="post-card-content">
+        <p class="post-date">{{ post.date | date: "%d/%m/%Y" }}</p>
+        <h2>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
+        <a class="read-more" href="{{ post.url | relative_url }}">Leer entrada</a>
+      </div>
+    </article>
+  {% endfor %}
+</section>
