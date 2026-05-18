@@ -4,7 +4,7 @@ title: "Horizon Zero Dawn"
 date: 2026-05-16
 image: /assets/img/Games_Horizon.jpg
 image_alt: "Portada del videojuego Horizon Zero Dawn"
-image_credit: "Portada del videojuego Horizon Zero Dawn. Derechos: Sony Interactive Entertainment.  Uso educativo y de comentario."
+image_credit: "Portada del videojuego Horizon Zero Dawn. Derechos: Sony Interactive Entertainment.  Uso educativo y de comentario. Extraida de: https://sonyinteractive.com/en/news/asset-library/"
 categories: [videojuegos, analisis]
 ---
 
