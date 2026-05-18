@@ -1,32 +1,38 @@
 ---
 layout: default
-title: Inicio
+title: Blog Gamer
 ---
 
 <section class="hero">
   <div>
-    <p class="eyebrow">Blog estático con Jekyll</p>
-    <h1>Mi Blog de HTML y CSS</h1>
+    <p class="eyebrow">Blog Gamer</p>
+    <h1>Blog de videojuegos</h1>
     <p>
-      Este es un ejemplo sencillo de blog creado con Jekyll. Contiene tres entradas,
-      imágenes locales, una plantilla HTML reutilizable y una hoja de estilos CSS.
+      Este Blog contiene opiniones personales sobre algunos videojuegos, usted podrá
+      observar una reseña general, una clasificación y una sugerencia de mejora al juego.
+      Cada post contiene crítica personal y no reemplaza al criterio propio del lector.
     </p>
   </div>
 </section>
 
-<section class="posts-grid" aria-label="Entradas del blog">
+<section class="posts-grid" aria-label="Posts del blog">
   {% for post in site.posts %}
     <article class="post-card">
       <a href="{{ post.url | relative_url }}">
         <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt }}">
       </a>
       <div class="post-card-content">
-        <p class="post-date">{{ post.date | date: "%d/%m/%Y" }}</p>
+        {% assign meses = "enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre" | split: "|" %}
+        {% assign numero_mes = post.date | date: "%-m" | minus: 1 %}
+
+        <p class="post-date">
+          {{ post.date | date: "%-d" }} de {{ meses[numero_mes] }} de {{ post.date | date: "%Y" }}
+        </p>
         <h2>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h2>
         <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
-        <a class="read-more" href="{{ post.url | relative_url }}">Leer entrada</a>
+        <a class="read-more" href="{{ post.url | relative_url }}">Ver publicación</a>
       </div>
     </article>
   {% endfor %}
