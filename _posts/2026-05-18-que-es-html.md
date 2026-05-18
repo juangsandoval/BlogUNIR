@@ -4,7 +4,7 @@ title: "Ghost of Tsushima"
 date: 2026-05-18
 image: /assets/img/Games_Ghost-of-Tsushima.jpg
 image_alt: "Imagen de Ghost of Tsushima"
-Imagen del del videojuego Ghost of Tsushima. Derechos: Sony Interactive Entertainment. Uso educativo y de comentario. Desacarado de: https://sonyinteractive.com/en/news/asset-library/
+image_credit: "Imagen del del videojuego Ghost of Tsushima. Derechos: Sony Interactive Entertainment. Uso educativo y de comentario. Desacarado de: https://sonyinteractive.com/en/news/asset-library/
 ---
 
 Ghost of Tsushima
